@@ -8,9 +8,11 @@ function init() {
 
 function checkKonamiCode(e) {
   const key = parseInt(e.detail || e.which);
-  if (code[index] == key) {
+  if (code[index] === key) {
     index++;
-    if ()
+    if (index === code.length {
+      alert('Konami Code!');
+    }
   }
   else {
     index = 0;
