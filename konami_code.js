@@ -12,7 +12,7 @@ function checkKonamiCode(e) {
     index++;
     if (index === code.length) {
       alert('Konami Code!');
-    }
+      }
   }
   else {
     index = 0;
