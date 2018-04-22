@@ -18,3 +18,5 @@ function checkKonamiCode(e) {
     index = 0;
   }
 }
+
+init();
