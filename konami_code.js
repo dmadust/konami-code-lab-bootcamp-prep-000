@@ -16,6 +16,7 @@ function checkKonamiCode(e) {
       }
   }
   else {
+    console.log('nada');
     index = 0;
   }
 }
