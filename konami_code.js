@@ -7,7 +7,7 @@ function init() {
 }
 
 function checkKonamiCode(e) {
-  const key = parseInt(e.key || e.which);
+  const key = parseInt(e.detail || e.which);
   if (code[index] === key) {
     console.log(index);
     index++;
